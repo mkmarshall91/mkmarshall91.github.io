@@ -1,0 +1,42 @@
+# _config.yml
+
+# Site settings
+title: My Jekyll Site
+description: A simple Jekyll site
+theme: minima
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Markdown settings
+markdown: kramdown
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about.html
+  - title: Blog
+    url: /blog.html
+
+# Social media links
+social:
+  - title: GitHub
+    url: https://github.com/myusername
+  - title: Twitter
+    url: https://twitter.com/myusername
+
+# Custom variables
+my_variable: "Hello, Jekyll!"
