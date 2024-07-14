@@ -3,7 +3,7 @@
 # Site settings
 title: My Jekyll Site
 description: A simple Jekyll site
-theme: jekyll-dark-theme
+theme: minima
 
 # Build settings
 plugins:
